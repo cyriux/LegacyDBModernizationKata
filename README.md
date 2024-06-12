@@ -12,7 +12,13 @@ Meanwhile, the product managers request  new features to improve the conversion 
 
 # The system 
 
-**A description of the DB tables of the system can be found in this repository in various forms.**
+Here is the DB schema in one picture:
+
+![The DB schema shown in Azimutt](https://github.com/cyriux/LegacyDBModernizationKata/blob/main/DB_schema.png) 
+
+It's a typical system built on top of a DB.
+
+**A detailled description of the DB tables of the system can be found in this repository in various forms.**
 
 The sequence of operations goes like this, in a nutshell:
 - A Seller puts Items (not watermarked) for sale, including some Bundles of items.
