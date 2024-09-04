@@ -1,0 +1,27 @@
+digraph Operations {
+    rankdir="LR"
+    node [shape=box]
+    
+    
+    A [label="Seller puts \n Items for sale"];
+    B [label="Customer orders \n items and/or bundles"];
+    C [label="System contacts PSP \n and updates Order \n and Payment"];
+    D [label="Payment \n confirmation \n generated"];
+    
+    E [label="Watermarked Items \n are created \n for the customer"];
+    F1 [label="Download Limit \n is created"];
+    
+    F2 [label="Invoice \n generated"];
+    F3 [label="Reportings \n generated"];
+    F4 [label="Popularity \n for items \n and seller \n are updated"];
+
+    A -> B;
+    B -> C;
+    C -> D [label="if payment \n succeeded"];
+    D -> E;
+    
+    D -> F1;       
+    D -> F2;   
+    D -> F3;
+    D -> F4;
+}
