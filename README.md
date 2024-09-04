@@ -30,6 +30,8 @@ The sequence of operations goes like this, in a nutshell:
 - A Download Limit is created.
 - Additionally, an Invoice is generated, reportings are generated, and popularity for the items and the seller are updated.
 
+![The DB schema shown in Azimutt](https://github.com/cyriux/LegacyDBModernizationKata/blob/main/sequence-diagram.png) 
+
 
 # The game
 
